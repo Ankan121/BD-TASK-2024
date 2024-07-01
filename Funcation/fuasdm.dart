@@ -3,6 +3,7 @@ void main() {
   muliplication();
   minus();
   divide();
+  print('All Function output.');
 }
 
 sum() {
