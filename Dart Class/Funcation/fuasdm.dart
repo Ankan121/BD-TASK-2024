@@ -7,6 +7,7 @@ void main() {
 }
 
 sum() {
+  var e = 10;
   var a = 20;
   var b = 30;
   print('Sum is = ${a + b}');
