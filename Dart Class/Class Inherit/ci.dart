@@ -77,7 +77,7 @@ class Gpa extends function {
 
 class loop extends Gpa {
   l() {
-    print("----------------------\nClass For Loop Output");
+    print("----------------------\nClass For Loop Output.");
     var number = 10;
     for (var x = 1; x <= 5; x++) {
       print(x);
