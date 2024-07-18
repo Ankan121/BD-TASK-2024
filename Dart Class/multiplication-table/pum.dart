@@ -10,5 +10,5 @@ void main() {
   print('$number × 8 = ${number * 8}');
   print('$number × 9 = ${number * 9}');
   print('$number × 10 = ${number * 10}');
-  print('End')
+  print('End');
 }
