@@ -1,1 +1,26 @@
+class A{
+  sum(){}
+}
+
+class B{
+  minus(){}
+}
+
+class C implements A,B{
+  @override
+  minus() {
+   print("This implements code.");
+  }
+
+  @override
+  sum() {
+    print(10+20);
+  }
+}
+
+void main(){
+    var obj = new C();
+    obj.minus();
+    obj.sum();
+}
 
